@@ -1,0 +1,9 @@
+기준 브랜치에서 main 브랜치 rebase 병합>
+
+- $ git checkout topic
+- $ git rebase main
+
+다시 main을 돌아와 fast-forward 병합 진행>
+
+- $ git checkout main
+- $ git merge topic
